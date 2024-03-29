@@ -21,11 +21,12 @@ bth.addEventListener("click",function(){
     } );
 
 
+if(bthBack){
     bthBack.addEventListener("click", function(){
         history.back()
-    })
-
+    });
     window.onload = function(){
         console.log(screen.height)
         console.log(screen.width);
-    }
+    };
+};
